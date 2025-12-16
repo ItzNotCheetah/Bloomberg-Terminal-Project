@@ -40,8 +40,8 @@ Essentially, this project combines market data and news aggregation, delivering 
 Use PythonAnywhere to Automate the Python Script
 
 ## Notes
-  -By default, the script monitors Tesla Inc (TSLA). You can change STOCK_NAME and COMPANY_NAME to monitor any stock.
-  -Make sure your Twilio account has a WhatsApp sandbox enabled for testing.
+  - By default, the script monitors Tesla Inc (TSLA). You can change STOCK_NAME and COMPANY_NAME to monitor any stock.
+  - Make sure your Twilio account has a WhatsApp sandbox enabled for testing.
 
   
 
