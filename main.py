@@ -14,7 +14,7 @@ STOCK_API_KEY = "YOUR_ALPHA_VANTAGE_KEY_HERE"
 NEWS_API_KEY = "YOUR_NEWSAPI_KEY_HERE"
 TWILIO_ACCOUNT_SID = "YOUR_TWILIO_ACCOUNT_SID_HERE"
 TWILIO_AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN_HERE"
-TWILIO_WHATSAPP_FROM = "whatsapp:+1234567890"  # replace with your  number
+TWILIO_WHATSAPP_FROM = "whatsapp:+1234567890"  # replace with your twilio number
 TWILIO_WHATSAPP_TO = "whatsapp:+1234567890"    # replace with your own number
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
