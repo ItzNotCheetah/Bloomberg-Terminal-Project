@@ -1,13 +1,17 @@
 # Bloomberg-Terminal-Project
-This project is a lightweight, automated “Bloomberg Terminal” for monitoring stock movements and related news — built entirely in Python. While full Bloomberg Terminals are expensive and feature-rich, this script demonstrates the core functionality of tracking stock prices and delivering actionable news
+This project is a lightweight, automated “Bloomberg Terminal” for monitoring stock movements and related news — built entirely in Python. While full Bloomberg Terminals are expensive and feature-rich, this script demonstrates the core functionality of tracking stock prices and delivering actionable news:
 
-This project is perfect for anyone interested in stocks, financial news, and automating notifications using Python and Twilio.
-Features
-Fetches daily stock prices from Alpha Vantage API.
-Calculates the percentage change between the last two trading days.
-If the change exceeds 5%, fetches the top 3 news articles for the company from NewsAPI.
-Sends the news headlines and brief descriptions to your WhatsApp number using Twilio.
-Easily configurable to monitor any stock or company.
+  -Monitors daily stock prices for any company (default: Tesla Inc / TSLA).
+  -Calculates daily percentage changes in stock price.
+  -Fetches the top 3 relevant news articles if the stock moves more than 5%, providing real-time context for market changes.
+  -Sends the news and stock movement alerts directly to your WhatsApp via Twilio.
+Essentially, this project combines market data and news aggregation, delivering instant insights just like a Bloomberg Terminal — but in a simple, free, and customizable Python script.
+
+Why it’s like a Bloomberg Terminal:
+  -Price alerts: Tracks stock movement and highlights significant changes.
+  -News aggregation: Shows relevant news that could impact stock decisions.
+  -Real-time notifications: Alerts delivered instantly via WhatsApp.
+  -Customizable: Easily modify it for any stock or company.
 
 How to Use
 
@@ -24,5 +28,10 @@ How to Use
 3.Update the script (main.py) with your own API keys and Twilio credentials
 
 4.Run the Script
+
+Notes
+  -By default, the script monitors Tesla Inc (TSLA). You can change STOCK_NAME and COMPANY_NAME to monitor any stock.
+  -Make sure your Twilio account has a WhatsApp sandbox enabled for testing.
+
 
 
