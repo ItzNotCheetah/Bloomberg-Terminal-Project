@@ -22,19 +22,19 @@ Essentially, this project combines market data and news aggregation, delivering 
 
 ## How to Use 🛠️
 
-1.Install twilio using pip
+1. Install twilio using pip
 
-2.Get your API keys:
-  Alpha Vantage (stock data):
-  https://www.alphavantage.co/support/#api-key
-  NewsAPI (news data):
-  https://newsapi.org/register
-  Twilio (WhatsApp messaging):
-  https://www.twilio.com/try-twilio
+2. Get your API keys:
+    - Alpha Vantage (stock data):
+      - https://www.alphavantage.co/support/#api-key
+    - NewsAPI (news data):
+      - https://newsapi.org/register
+    - Twilio (WhatsApp messaging):
+      - https://www.twilio.com/try-twilio
 
-3.Update the script (main.py) with your own API keys and Twilio credentials
+3. Update the script (main.py) with your own API keys and Twilio credentials
 
-4.Run the Script
+4. Run the Script
 
 ## Additionally
 Use PythonAnywhere to Automate the Python Script
